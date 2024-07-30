@@ -1,0 +1,32 @@
+_id: req_40cc90d35f5f45a3aab8041c23bd732b
+type: Request
+parentId: wrk_1dcd47bef5294ef88e1354a636ae59f2
+modified: 1722327883207
+created: 1722326932799
+url: http://localhost:5000/second
+name: Second
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "{% response 'raw', 'req_3f1e2fa42a144f7e9061e335f17cf9b8', '', 'never',
+    60 %}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/9.3.2
+    id: pair_a3a7e902c8244d35884ab59482f2e110
+authentication: {}
+preRequestScript: null
+metaSortKey: -1722326898714
+isPrivate: false
+pathParameters: []
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
